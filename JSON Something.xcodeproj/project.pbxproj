@@ -16,6 +16,7 @@
 		20CE30C923E0CBBB00572B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20CE30C723E0CBBB00572B77 /* LaunchScreen.storyboard */; };
 		20CE30D423E0CBBC00572B77 /* JSON_SomethingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE30D323E0CBBC00572B77 /* JSON_SomethingTests.swift */; };
 		20CE30DF23E0CBBC00572B77 /* JSON_SomethingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE30DE23E0CBBC00572B77 /* JSON_SomethingUITests.swift */; };
+		20CE30ED23E0CD4100572B77 /* DataGetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CE30EC23E0CD4100572B77 /* DataGetter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		20CE30DA23E0CBBC00572B77 /* JSON SomethingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JSON SomethingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CE30DE23E0CBBC00572B77 /* JSON_SomethingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON_SomethingUITests.swift; sourceTree = "<group>"; };
 		20CE30E023E0CBBC00572B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20CE30EC23E0CD4100572B77 /* DataGetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataGetter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				20CE30C523E0CBBB00572B77 /* Assets.xcassets */,
 				20CE30C723E0CBBB00572B77 /* LaunchScreen.storyboard */,
 				20CE30CA23E0CBBB00572B77 /* Info.plist */,
+				20CE30EC23E0CD4100572B77 /* DataGetter.swift */,
 			);
 			path = "JSON Something";
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				20CE30BB23E0CBB900572B77 /* AppDelegate.swift in Sources */,
 				20CE30BD23E0CBB900572B77 /* SceneDelegate.swift in Sources */,
+				20CE30ED23E0CD4100572B77 /* DataGetter.swift in Sources */,
 				20CE30BF23E0CBB900572B77 /* MasterViewController.swift in Sources */,
 				20CE30C123E0CBB900572B77 /* DetailViewController.swift in Sources */,
 			);
